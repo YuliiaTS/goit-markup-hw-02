@@ -1,3 +1,27 @@
 body {
     background-color: white;
 }
+.logo {
+    color: #2196F3;
+}
+.logo-nav {
+    color:black;
+}
+.logo-footer {
+    color: white;
+}
+.footer-bg {
+    background: #2F303A;
+}
+.link-nav {
+    color: #212121;
+}
+.link-nav:hover {
+    color: #2196F3;
+}
+.contacts-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+.address-footer {
+    color: #FFFFFF;
+}
