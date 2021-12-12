@@ -27,13 +27,23 @@ body {
 .contact-us-header:focus {
     color: #2196F3;
 }
+.btn-service-main {
+    background: #2196F3;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.btn {
+    background: #F5F4FA;
+    color: #212121;
+}
+.btn:hover,
+.btn:hover{
+    background: #2196F3;
+    color: #FFFFFF;
+}
 .contacts-footer {
     color: rgba(255, 255, 255, 0.6);
 }
 .address-footer {
     color: #FFFFFF;
-}
-.btn-filter{
-    background: #F5F4FA;
-    color: #212121;
 }
