@@ -26,8 +26,7 @@ body {
 .address-footer {
     color: #FFFFFF;
 }
-.btn:hover,
-.btn:focus {
-    background: #2196F3;
-    color: #FFFFFF;
+.btn-filter{
+    background: #F5F4FA;
+    color: #212121;
 }
