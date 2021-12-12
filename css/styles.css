@@ -20,6 +20,13 @@ body {
 .link-nav:focus {
     color: #2196F3;
 }
+.contact-us-header {
+    color: #757575;
+}
+.contact-us-header:hover,
+.contact-us-header:focus {
+    color: #2196F3;
+}
 .contacts-footer {
     color: rgba(255, 255, 255, 0.6);
 }
