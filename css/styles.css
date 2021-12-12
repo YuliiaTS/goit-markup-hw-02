@@ -16,7 +16,8 @@ body {
 .link-nav {
     color: #212121;
 }
-.link-nav:hover {
+.link-nav:hover,
+.link-nav:focus {
     color: #2196F3;
 }
 .contacts-footer {
