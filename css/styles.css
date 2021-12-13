@@ -1,11 +1,12 @@
 body {
     background-color: white;
+    color: #212121;
 }
 .logo {
     color: #2196F3;
 }
 .logo-nav {
-    color:black;
+    color: #212121;;
 }
 .logo-footer {
     color: white;
