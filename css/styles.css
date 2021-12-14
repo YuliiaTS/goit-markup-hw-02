@@ -1,8 +1,10 @@
 body {
+    font-family: 'Roboto', sans-serif;
     background-color: white;
     color: #212121;
 }
 .logo {
+    font-family: 'Raleway', sans-serif;
     color: #2196F3;
 }
 .logo-nav {
@@ -11,6 +13,11 @@ body {
 .logo-footer {
     color: white;
 }
+
+a[href] {
+    text-decoration: none;
+}
+
 .footer-bg {
     background: #2F303A;
 }
