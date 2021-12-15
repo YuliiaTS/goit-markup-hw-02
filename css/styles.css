@@ -76,6 +76,7 @@ a[href] {
     cursor: pointer;
 }
 .btn-portfolio {
+    font-family: inherit;
     background: #F5F4FA;
     color: #212121;
     cursor: pointer;
