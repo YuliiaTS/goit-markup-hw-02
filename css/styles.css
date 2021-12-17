@@ -75,11 +75,20 @@ a[href] {
     letter-spacing: 0.06em;
     cursor: pointer;
 }
+.hero-btn:hover,
+.hero-btn:focus {
+    background: #188CE8;
+
+}
 .feature-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     color: #757575;
+}
+
+.team {
+    background-color: #F5F4FA;
 }
 
 .team-title, .works-title {
@@ -114,6 +123,11 @@ a[href] {
 .contacts-footer {
     color: rgba(255, 255, 255, 0.6);
 }
+
+address {
+    font-style: normal;
+}
+
 .address-footer {
     color: #FFFFFF;
 }
