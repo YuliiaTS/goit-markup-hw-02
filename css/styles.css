@@ -8,6 +8,7 @@ body {
 }
 .logo {
     font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -83,8 +84,8 @@ ul li.current a {
 .hero-btn:hover,
 .hero-btn:focus {
     background: #188CE8;
-
 }
+
 .feature-text {
     font-weight: 400;
     font-size: 14px;
@@ -102,11 +103,13 @@ ul li.current a {
     line-height: 1.17;
     text-align: center;
 }
+
 .team-member {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
 }
+
 .team-text {
     font-weight: 400;
     font-size: 16px;
@@ -116,15 +119,35 @@ ul li.current a {
 
 .btn-portfolio {
     font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
     background: #F5F4FA;
     color: #212121;
     cursor: pointer;
 }
+
 .btn-portfolio:hover,
 .btn-portfolio:hover{
     background: #2196F3;
     color: #FFFFFF;
 }
+
+.gallery-list-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2px;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.gallery-list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #757575;
+}
+
 .contacts-footer {
     color: rgba(255, 255, 255, 0.6);
 }
