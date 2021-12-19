@@ -1,24 +1,31 @@
+:root {
+    --brand-color: #2196F3;
+    --text-color: #212121;
+    --accent-color: #FFFFFF;
+  }
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    background-color: white;
-    color: #212121;
+    background-color: var(--accent-color);
+    color: var(--text-color);
 }
+
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color: var(--brand-color);
 }
 .logo-nav {
-    color: #212121;;
+    color: var(--text-color);
 }
 .logo-footer {
-    color: white;
+    color: var(--accent-color);
 }
 
 .list {
@@ -37,15 +44,15 @@ a[href] {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    color: #212121;
+    color: var(--text-color);
 }
 .link-nav:hover,
 .link-nav:focus {
-    color: #2196F3;
+    color: var(--brand-color);
 }
 
 ul li.current a {
-    color: #2196F3;
+    color: var(--brand-color);
 }
 
 .contact-us-header {
@@ -57,13 +64,13 @@ ul li.current a {
 }
 .contact-us-header:hover,
 .contact-us-header:focus {
-    color: #2196F3;
+    color: var(--brand-color);
 }
 .hero {
     background: #2F303A;
 }
 .hero-title {
-    color: #FFFFFF;
+    color: var(--accent-color);
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -73,8 +80,8 @@ ul li.current a {
 }
 .hero-btn {
     font-family: inherit;
-    background: #2196F3;
-    color: #FFFFFF;
+    background: var(--brand-color);
+    color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -84,6 +91,15 @@ ul li.current a {
 .hero-btn:hover,
 .hero-btn:focus {
     background: #188CE8;
+}
+
+.feature-title-item {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    text-align: left;
+    color: var(--text-color);
 }
 
 .feature-text {
@@ -121,27 +137,27 @@ ul li.current a {
     font-size: 16px;
     line-height: 1.6;
     background: #F5F4FA;
-    color: #212121;
+    color: var(--text-color);
     cursor: pointer;
 }
 
 .btn-portfolio:hover,
 .btn-portfolio:hover{
-    background: #2196F3;
-    color: #FFFFFF;
+    background: var(--brand-color);
+    color: var(--accent-color);
 }
 
 .gallery-list-title {
     font-weight: 700;
     font-size: 18px;
-    line-height: 2px;
+    line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--text-color);
 }
 
 .gallery-list-text {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.8;
     color: #757575;
 }
 
@@ -154,5 +170,5 @@ address {
 }
 
 .address-footer {
-    color: #FFFFFF;
+    color: var(--accent-color);
 }
